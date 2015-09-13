@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" ng-strict-di ng-controller="LandingController">
+<head>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+
+    <title>WeNoKnow - The random food delivery service!</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+    <link rel="shortcut icon" href="img/favicon.ico?v=3" type="image/x-icon" />
+
+    <!-- font files -->
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn:400italic,400|Open+Sans:400,,800" rel="stylesheet" type="text/css">
+
+    <!-- build:css css/wenoknow.landing.min.css -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- endbuild -->
+</head>
+<body>
+    <nav>
+        <div class="close-menu triggermenu rippleblack" ng-class="{naviphone: isIOS}">
+            <div class="x-button"></div>
+        </div>
+        <div class="test-scroll">
+            <div class="signininputs" ng-include="'views/login-form.html'"></div>
+            <div class="appdownloads" ng-hide="isApp">
+                <a href="https://itunes.apple.com/us/app/wenoknow/id969438958" class="iphone-download"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.wenoknow.app" class="android-download"></a>
+            </div>
+        </div>
+    </nav>
+    <div class="headermenutrigger triggermenu rippleblack"></div>
+    <header class="header">
+        <div class="container">
+            <a class="header-logo" href="/"></a>
+            <div class="nav triggermenu">
+                <div class="login-text">log in</div><div class="nav-button"><i></i></div>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="cta">
+                <h1 class="animated fadeInLeft">What<br>should we<br><b>eat tonight...</b></h1>
+                <p>We were sick and tired of choosing where to eat, so we made this ridiculous app that will deliver you random restaurant food.</p>
+                <div class="changeimage">
+                    <a href="/app" class="app-button rippleblack"><i class="fa  fa-globe"></i> place order online</a>
+                    <a href="#app" class="app-button rippleblack"><i class="fa fa-apple"></i><i class="fa fa-android"></i> Or get the app</a>
+                </div>
+            </div>
+            <div class="shrug-guy animated bounceIn">
+                <div class="col-6 shrugslide2">
+                    <img src="img/shrugguy6.png" class="shrugimg2">
+                    <div class="first-message animated bounceInUp">After WeNoKnow I was found</div>
+                </div>
+                <div class="col-6 shrugslide1">
+                    <img class="shrugimg" src="img/shrugguy.png">
+                    <div class="first-message animated bounceInUp">Before WeNoKnow I was Lost</div>
+                </div>
+            </div>
+        <a class="btn-arrow rippleblack" href="#app"></a>
+        </div>
+    </section>
+
+    <div class="socialshare">
+        <div class="container">
+                <a href="https://twitter.com/WeNoKnow" class="twitter-follow-button" data-show-count="false" target="_blank">Follow @WeNoKnow</a>
+
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="WeNoKnow">Tweet</a>
+                <div class="fb-like" data-href="https://www.facebook.com/wenoknow" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+        </div>
+    </div>
+    <section class="app" id="app">
+        <div class="container">
+            <div class="cta">
+                <h1>food delivered<br> In just a few clicks...</h1>
+                <p>We took thinking out of the equation. So our app is bound to be the <b>fastest way to get food ever...</b> At least, I mean, probably?</p>
+                <a href="https://itunes.apple.com/us/app/wenoknow/id969438958" class="app-button rippleblack changeimage"><i class="fa fa-apple"></i> iphone</a>
+                <a href="https://play.google.com/store/apps/details?id=com.wenoknow.app" class="app-button rippleblack changeimage"><i class="fa fa-android"></i> android</a>
+            </div>
+            <div class="app-hand"></div>
+        </div>
+    </section>
+
+    <section class="appdownload">
+        <div class="cover"></div>
+        <div class="container">
+            <div class="cta">
+                <h1>stop wasting your time...</h1>
+                <p>You just ordered completely random food! Sure, you'll question what you're doing with your life. I mean, what if something comes that you don't like? You can't return food! But then again there's a chance something will come that you love<b> *</b>! And love, well love is a hard thing to find these days. <i class="fa fa-heart" style="font-size:16px;color:red;position:relative;top:-2px;"></i><br></p>
+                <div class="footnote">
+                    <span>* WeNoKnow doesn't guarantee true love, the existence of true love, or lack there of. The love you may or may not experience through our service is purely coincidental, highly unlikely, and frankly sort of weird. Please use with caution and less emotional investment.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="realtalk">
+        <div class="container">
+            <div class="cta">
+                <h1>#wenoknow Here's what people are saying...</h1>
+            </div>
+            <div class="socialtest">
+                <div class="row">
+                    <div class="col-6 hideme">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="socialfill"></div>
+                            </div>
+                            <div class="col-6">
+                                <div class="socialfill"></div>
+                            </div>
+                            <div class="col-6">
+                                <div class="socialfill socialfill-2"></div>
+                            </div>
+                            <div class="col-6">
+                                <div class="socialtext whitecola triggeryoutube" style="background:url('img/imagethree.png');background-size:cover"><b>youtube</b><div class="playbutton"><i class="fa fa-play"></i></div> </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="twitterfull">
+                                    <b><a href="https://twitter.com/wenoknow" target="_blank">twitter</a></b>
+                                    <p>For my 10 year anniversary I wanted to do something special with my wife. We went somewhere real romantic, I busted out #WeNoKnow and she was swooned by my spontaniety. Thanks! Oh yah, and we got a hella cash meal too!</p>
+                                    <strong>- Nickola Peterhun</strong>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="imageleft" style="background:url('img/imagefive.png');background-size:cover"></div>
+                            </div>
+                            <div class="col-6">
+                                <div class="socialtext">
+                                    <b><a href="https://twitter.com/wenoknow" target="_blank">twitter</a></b>
+                                    <p>I don't know If I'd reccomend this app. I got a gorgeous salad, but my gf got a kebab and 3 raw onions. #WeNoKnow</p>
+                                    <strong>- Polly Gong & Anderson Wilson</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="imageleft" style="background:url('img/imageone.png');background-size:cover"></div>
+                            </div>
+                            <div class="col-6">
+                                <div class="socialtext firstst">
+                                    <b><a href="https://twitter.com/wenoknow" target="_blank">twitter</a></b>
+                                    <p>#WeNoKnow saved our marriage</p>
+                                    <strong>- Jim & Ami Tasset</strong>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="socialtext">
+                                    <b><a href="https://www.facebook.com/wenoknow" target="_blank">facebook</a></b>
+                                    <p>I'm no busta. I use WeNoKnow because it keeps me young! #foreveryoung #WeDon'tKnow</p>
+                                    <strong>- Coral House</strong>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="imageright" style="background:url('img/imagetwo.png');background-size:cover"></div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="imageleft" style="background:url('img/imagefour.png');background-size:cover;"></div>
+                            </div>
+                            <div class="col-6">
+                                <div class="socialtext">
+                                    <b><a href="https://instagram.com/orderwenoknow" target="_blank">instagram</a></b>
+                                    <p>I left my second Bae because she was so indecisive... I knew the third one was a keeper when she introduced me to #WeNoKnow.</p>
+                                    <strong>- Zac House</strong>
+                                </div>
+                            </div>
+                            <div class="feets"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="snetworks">
+        <div class="container">
+            
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="logo-bottom"><img src="img/wnklogo-bottom.png"><span> &copy; WeNoKnow 2015 </span></div>
+                <div class="link-wraps">
+                    <a href="/faq">FAQ</a>
+                    <a href="/terms">Terms</a>
+                    <a href="/privacy">Privacy</a>
+                    <a href="mailto:wenoknow@gmail.com" target="_blank">Contact</a>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/wenoknow" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                        <a href="https://instagram.com/orderwenoknow" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://twitter.com/wenoknow" target="_blank"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="website-mask triggermenu">
+    </div>
+    <div class="website-mask2 triggeryoutube">
+        <div class="yt-popup">
+            <div class="xbutton"><i class="fa fa-times"></i></div>
+            <iframe id="youtubevid" width="700" height="393" src="https://www.youtube.com/embed/Fpgj04Tp4rs" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- build:js js/wenoknow.landing.min.js -->
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/fb.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
