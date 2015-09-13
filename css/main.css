@@ -157,11 +157,12 @@ fieldset {
 	text-align: center;
 }
 .cta p {
-	color: #727272;
-	font-size: 20px;
-	margin: 30px 0px 0px;
-	font-weight: 300;
-	font-family: 'NeuzeGroTReg', serif;
+	color: #757575;
+	font-size: 19px;
+	margin: 35px 0px 0px;
+	font-weight: 500;
+	line-height: 26px;
+	font-family: 'Work Sans', serif;
 }
 .cta p a {
 
