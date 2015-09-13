@@ -20,7 +20,8 @@ body, html {
 }
 /*header*/
 .header {
-	background:#884bc2;
+	background:white;
+	border-bottom: 1px solid rgba(0,0,0,.1);
 	line-height: 76px;
 	z-index: 2;
 	height: 76px;
@@ -98,7 +99,6 @@ fieldset {
 
 /*hero*/
 .hero {
-	background: #884bc2;
 	padding: 0px 0px 0px;
 	height:700px;
 	position: relative;
@@ -115,7 +115,7 @@ fieldset {
 
 
 .cta h1 {
-	color: #5121d5;
+	color: #5cbb7a;
 	font-size: 60px;
 	margin:0px;
 	font-family: 'Open Sans', sans-serif;
@@ -128,12 +128,12 @@ fieldset {
 	position: absolute;
 	height: 8px;
 	width: 396px;
-	background: #5121d5;
+	background: #5cbb7a;
 	left: 0px;
 	bottom: -23px
 }
 .cta h1 b {
-	color: #5121d5
+	color: #5cbb7a
 }
 .app .cta h1, .appdownload .cta h1{
 	color: #212121;
@@ -152,7 +152,7 @@ fieldset {
 	text-align: center;
 }
 .cta p {
-	color: white;
+	color: black;
 	font-size: 26px;
 	margin: 40px 0px 0px;
 	font-weight: 300;
@@ -160,7 +160,7 @@ fieldset {
 	font-style: italic;
 }
 .hero .cta p {
-	color: #b0acd3
+	color: #999
 }
 .app .cta p, .appdownload .cta p {
 	color: #212121;
