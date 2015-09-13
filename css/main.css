@@ -156,11 +156,19 @@ fieldset {
 }
 .cta p {
 	color: #000;
+<<<<<<< HEAD
 	font-size: 18px;
 	margin: 35px 0px 0px;
 	font-weight: 300;
 	line-height: 24px;
 	font-family: 'Work Sans', serif;
+=======
+	font-size: 19px;
+	margin: 40px 0px 0px;
+	font-weight: 300;
+	line-height: 26px;
+	font-family: 'Roboto', serif;
+>>>>>>> 5cf4ca63ea45dd6022401e5db35eff5f77d1fb83
 }
 .cta p a {
 
