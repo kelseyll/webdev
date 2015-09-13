@@ -20,11 +20,7 @@ body, html {
 }
 /*header*/
 .header {
-<<<<<<< HEAD
-	background: #2747FE;
-=======
 	background:#884bc2;
->>>>>>> 60a1e95b25633b7c8940ae9fc540d557b55b241b
 	line-height: 76px;
 	z-index: 2;
 	height: 76px;
@@ -48,7 +44,7 @@ fieldset {
 .header-logo {
 	height: 100%;
 	position: absolute;
-	background: url('../img/UVic.io.svg');
+	background: url('../img/UVicio.svg');
 	display: inline-block;
 	width: 100%;
 	background-size: auto 15px;
@@ -410,7 +406,7 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.36);
   }
 
 .socialshare {
-	background: #212121;
+	background: #5a317c;
 	position: relative;
 	z-index: 50
 }
