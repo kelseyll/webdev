@@ -120,7 +120,8 @@ fieldset {
 	font-size: 60px;
 	margin:0px;
 	font-family: 'Open Sans', sans-serif;
-	line-height: 70px;
+	font-weight: 800;
+	line-height: 65px;
 	text-transform: uppercase;
 	position: relative;
 }
@@ -154,11 +155,11 @@ fieldset {
 }
 .cta p {
 	color: black;
-	font-size: 26px;
+	font-size: 24px;
 	margin: 40px 0px 0px;
 	font-weight: 300;
 	font-family: 'Vollkorn', serif;
-	font-style: italic;
+	font-style: italic; 
 }
 .hero .cta p {
 	color: #444
@@ -429,15 +430,9 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.36);
 	text-decoration: none;
 	color: #212121;
 	font-weight: 400;
-	text-transform: uppercase;
 	border-radius: 30px;
 	box-shadow: none;
 	border:1px solid black;
-}
-.fixheader {
-	position: fixed;
-	top: -76px;
-	z-index: 6;
 }
 .posheader {
 	top: 0px;
