@@ -113,7 +113,7 @@ fieldset {
 	padding: 0px 0px 0px;
 	height:700px;
 	position: relative;
-	background: #f6efe7;
+	background: #B6E7F6;
 }
 .hero .container {
 	position: relative;
@@ -156,19 +156,11 @@ fieldset {
 }
 .cta p {
 	color: #000;
-<<<<<<< HEAD
-	font-size: 18px;
-	margin: 35px 0px 0px;
-	font-weight: 300;
-	line-height: 24px;
-	font-family: 'Work Sans', serif;
-=======
 	font-size: 19px;
-	margin: 40px 0px 0px;
+	margin: 35px 0px 0px;
 	font-weight: 300;
 	line-height: 26px;
 	font-family: 'Roboto', serif;
->>>>>>> 5cf4ca63ea45dd6022401e5db35eff5f77d1fb83
 }
 .cta p a {
 
@@ -432,7 +424,7 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.36);
 	border-radius: 30px;
 	box-shadow: none;
 	border:1px solid #3b5998;
-	font-family: "Work Sans", sans-serif;
+	/*font-family: "R", sans-serif;*/
 }
 
 
@@ -1247,8 +1239,7 @@ nav {
 		padding: 12px 10px;
 	}
 	.header-logo {
-		width: 40px;
-		background-size: auto 38px;
+		background-size: auto 15px;
 	}
 	.hero .shrug-guy .col-6 {
 		width: 100%
