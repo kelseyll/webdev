@@ -34,13 +34,6 @@ $(function() {
         }
     });
 
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll >= 600) {$("header").addClass("fixheader");}
-        if (scroll >= 803) {$("header").addClass("posheader");}
-        if (scroll <= 803) {$("header").removeClass("posheader");}
-        if (scroll <= 600) {$("header").removeClass("fixheader");}
-    });
 
     var clicked = false;
     $(".changeimage").mouseleave(function() {
@@ -59,13 +52,6 @@ $(function() {
     });
     */
 
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll >= 600) {$("header").addClass("fixheader");$(".headermenutrigger").addClass("headermenutrigger-fixed");}
-        if (scroll >= 803) {$("header").addClass("posheader");$(".headermenutrigger").addClass("headermenutrigger-fixed");}
-        if (scroll <= 803) {$("header").removeClass("posheader");$(".headermenutrigger").removeClass("headermenutrigger-fixed");}
-        if (scroll <= 600) {$("header").removeClass("fixheader");$(".headermenutrigger").removeClass("headermenutrigger-fixed");}
-    });
 
     function myclick(selector, floating, menu_thing) {
         if (menu_thing) {
