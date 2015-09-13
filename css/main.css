@@ -14,7 +14,13 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Open sans', sans-serif;
 }
-
+@font-face {
+  font-family: 'avant-garde';
+  src: url('../fonts/avant-garde.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/avant-garde.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/avant-garde.woff') format('woff'),
+       url('../fonts/avant-garde.ttf')  format('truetype')
+}
 body, html {
 	overflow-x: hidden
 }
@@ -116,13 +122,12 @@ fieldset {
 
 .cta h1 {
 	color: #000;
-	letter-spacing: -2px;
-	font-size: 60px;
+	letter-spacing: -1px;
+	font-size: 50px;
 	margin:0px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'avant-garde', sans-serif;
 	font-weight: 800;
-	line-height: 65px;
-	text-transform: uppercase;
+	line-height: 55px;
 	position: relative;
 }
 .cta h1:after {
@@ -155,11 +160,11 @@ fieldset {
 }
 .cta p {
 	color: black;
-	font-size: 24px;
+	font-size: 22px;
 	margin: 40px 0px 0px;
 	font-weight: 300;
-	font-family: 'Vollkorn', serif;
-	font-style: italic; 
+	letter-spacing: -1.5px;
+	font-family: 'Open Sans', serif;
 }
 .hero .cta p {
 	color: #444
@@ -567,7 +572,7 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.36);
 	z-index: 2;
 }
 .socialtext p, .twitterfull p {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Open Sans', serif;
 	font-size: 17px;
 }
 .twitterfull p {
