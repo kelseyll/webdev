@@ -115,7 +115,7 @@ fieldset {
 
 
 .cta h1 {
-	color: #fff000;
+	color: #5121d5;
 	font-size: 60px;
 	margin:0px;
 	font-family: 'Open Sans', sans-serif;
@@ -128,12 +128,12 @@ fieldset {
 	position: absolute;
 	height: 8px;
 	width: 396px;
-	background: #fff000;
+	background: #5121d5;
 	left: 0px;
 	bottom: -23px
 }
 .cta h1 b {
-	color: #fff000
+	color: #5121d5
 }
 .app .cta h1, .appdownload .cta h1{
 	color: #212121;
@@ -158,7 +158,9 @@ fieldset {
 	font-weight: 300;
 	font-family: 'Vollkorn', serif;
 	font-style: italic;
-
+}
+.hero .cta p {
+	color: #b0acd3
 }
 .app .cta p, .appdownload .cta p {
 	color: #212121;
