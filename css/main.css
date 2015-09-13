@@ -33,7 +33,6 @@ body, html {
 }
 /*header*/
 .header {
-	background:white;
 	line-height: 76px;
 	z-index: 2;
 	height: 76px;
@@ -114,8 +113,7 @@ fieldset {
 	padding: 0px 0px 0px;
 	height:700px;
 	position: relative;
-	background-size: cover;
-	background-position: center;
+	background: #f6efe7;
 }
 .hero .container {
 	position: relative;
@@ -158,10 +156,10 @@ fieldset {
 }
 .cta p {
 	color: #000;
-	font-size: 19px;
+	font-size: 18px;
 	margin: 35px 0px 0px;
 	font-weight: 300;
-	line-height: 26px;
+	line-height: 24px;
 	font-family: 'Work Sans', serif;
 }
 .cta p a {
