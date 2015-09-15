@@ -162,11 +162,11 @@ fieldset {
 }
 .cta p {
 	color: rgba(0,0,0,0.5);
-	font-size: 19px;
+	font-size: 20px;
 	margin: 35px 0px 0px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 26px;
-	font-family: 'Roboto', serif;
+	font-family: 'NeuzeGroTReg', serif;
 }
 .cta p a {
 
