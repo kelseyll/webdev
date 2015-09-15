@@ -446,7 +446,6 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.36);
 	height: 700px;
 	width: 50%;
 	position: absolute;
-	opacity: .9;
 	left: 0px;
 }
 .appdownload h3 b {
@@ -477,7 +476,7 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.36);
 	font-style: normal
 }
 .realtalk {
-	background: #212121;
+	background: #F5F5F5;
 	height: 700px;
 	padding-bottom: 160px;
 }
