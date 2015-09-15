@@ -510,35 +510,12 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.36);
 .imageleft {
 
 }
-.imageleft:after {
-	content: "";
-	position: absolute;
-	right: 0px;
-	width: 0; 
-	height: 0; 
-	border-top: 15px solid transparent;
-	border-bottom: 15px solid transparent; 
-	border-right:15px solid #F5F5F5;
-	top: 50%;
-	margin-top:-15px;
-}
+
 .imageright {
 	background: green
 }
-.imageright:after {
-	content: "";
-	position: absolute;
-	left: 0px;
-	top: 50%;
-	width: 0; 
-	height: 0; 
-	border-top: 15px solid transparent;
-	border-bottom: 15px solid transparent;
-	border-left: 15px solid #F5F5F5;
-	margin-top:-15px;
-}
 .socialtext {
-	background: #F5F5F5;
+	background: #fff;
 	padding: 30px;
 }
 .socialtext a {
@@ -610,7 +587,7 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.36);
 	height: 285px;
 }
 .whitecola b {
-	color: white
+	color: black
 }
 .twitterfull {
 	padding: 30px;
