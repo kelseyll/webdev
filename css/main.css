@@ -810,6 +810,9 @@ nav {
  	line-height: 50px;
  	transition: all .5s ease-in-out;
 }
+.changeimage {
+	display: inline-block;
+}
 .xbutton:hover {
 	background: white;
 	color: black;
