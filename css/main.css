@@ -815,6 +815,9 @@ nav {
 .changeimage {
 	display: inline-block;
 }
+.changeimage a {
+	display: inline-block;
+}
 .xbutton:hover {
 	background: white;
 	color: black;
