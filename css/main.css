@@ -58,6 +58,8 @@ fieldset {
 .header-logo {
 	height: 100%;
 	position: absolute;
+	text-decoration: none;
+	color: black;
 	display: inline-block;
 	width: 100px;
 	background-size: auto 20px;
